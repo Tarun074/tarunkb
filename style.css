@@ -1,0 +1,46 @@
+.paper {
+    padding:100px 100px;
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+    display: FLEX;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/IO.jpg);
+    background-size: cover;
+}
+
+.paper.loveyou{
+    position:absolute;
+    background-image: url(images/loveyou.jpg);
+    background-size: 200px;
+    background-position: center center;
+    padding: 100px 100px;
+    transform: rotateZ('-5deg');
+}
+.paper.IMG_1885{
+    position:absolute;
+    background-image: url(images/IMG_1885.jpg);
+    background-size: 340PX;
+    background-position: center center;
+    padding: 100px 100px;
+    transform: rotateZ('5deg');
+}
+.paper.us{
+    position:absolute;
+    background-image: url(images/us.jpg);
+    background-size: 200px;
+    background-position: center center;
+    padding: 100px 100px;
+    transform: rotateZ('5deg');
+}
+.paper.we{
+    position:absolute;
+    background-image: url(images/we.jpg);
+    background-size: 200px;
+    background-position: center center;
+    padding: 100px 100px;
+    transform: rotateZ('-5deg');
+}
